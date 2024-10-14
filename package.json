@@ -1,14 +1,18 @@
 {
-  "name": "ml_hooks",
-  "version": "1.0.0",
+  "name": "miziha_hooks",
+  "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.ts",
   "scripts": {
     "build": "webpack && tsc --emitDeclarationOnly"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
-  "author": "",
+  "author": "miziha-l",
   "license": "ISC",
+  "private": false,
   "dependencies": {
     "ml_hooks": "file:",
     "react": "^18.3.1",
