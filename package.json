@@ -7,7 +7,8 @@
     "build": "webpack && tsc --emitDeclarationOnly"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "keywords": [],
   "author": "miziha-l",
