@@ -1,6 +1,6 @@
 {
   "name": "miziha_hooks",
-  "version": "0.0.3",
+  "version": "0.0.41",
   "description": "",
   "main": "./dist/index.ts",
   "scripts": {
@@ -10,13 +10,18 @@
     "dist",
     "README.md"
   ],
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "hooks",
+    "react"
+  ],
   "author": "miziha-l",
   "license": "ISC",
   "private": false,
   "dependencies": {
     "ml_hooks": "file:",
     "react": "^18.3.1",
+    "react-dnd": "^16.0.1",
     "react-dom": "^18.3.1",
     "ts-loader": "^9.5.1",
     "typescript": "^5.6.3",
