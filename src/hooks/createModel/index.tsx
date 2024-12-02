@@ -1,6 +1,6 @@
 import React, { createContext, useContext, ReactNode } from 'react';
 
-export function createModel<T>(useHook: () => T) {
+export function createModel<T>(useHook: (initState: any) => T) {
   const Context = createContext<T | undefined>(undefined);
   const useModel = () => {
     const context = useContext(Context);
@@ -10,8 +10,8 @@ export function createModel<T>(useHook: () => T) {
     return context;
   };
 
-  const Provider = ({ children }: { children: ReactNode }) => {
-    const value = useHook(); // 使用传入的 Hook 来获取值
+  const Provider = ({ children, initState }: { children: ReactNode, initState: any }) => {
+    const value = useHook(initState); // 使用传入的 Hook 来获取值
     return <Context.Provider value={value}>{children}</Context.Provider>;
   };
 

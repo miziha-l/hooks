@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const useInView = (ref: React.MutableRefObject<HTMLElement>) => {
+export const useInView = (ref: React.MutableRefObject<HTMLElement>) => {
   const [isInView, setIsInView] = useState(false);
 
   useEffect(() => {
@@ -22,4 +22,3 @@ const useInView = (ref: React.MutableRefObject<HTMLElement>) => {
   return isInView;
 };
 
-export default useInView;
