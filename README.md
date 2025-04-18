@@ -18,11 +18,11 @@ off("test");
 ```
 
 ### hooks
-[createModel]() 创建一个状态管理器 基于react 原生 createContext / useContext 实现
-[useEentsBus]() 创建一个事件总线
-[useAnimationFrame]() 动画帧 基于react 原生 useEffect / requestAnimationFrame 实现
-[useDrag]() 拖拽 基于react-dnd 实现
-[useDrap]() 拖拽callback 基于react-dnd 实现
-[useIsView]() 元素是否在视口内 基于react 原生 IntersectionObserver 实现
-[useMedia]() 媒体查询 基于react 原生 useMedia 实现
-[useProgress]() 进度条 基于原生class 实现
+[createModel]() 创建一个状态管理器 基于react 原生 createContext / useContext 实现\n
+[useEentsBus]() 创建一个事件总线\n
+[useAnimationFrame]() 动画帧 基于react 原生 useEffect / requestAnimationFrame 实现\n
+[useDrag]() 拖拽 基于react-dnd 实现\n
+[useDrap]() 拖拽callback 基于react-dnd 实现\n
+[useIsView]() 元素是否在视口内 基于react 原生 IntersectionObserver 实现\n
+[useMedia]() 媒体查询 基于react 原生 useMedia 实现\n
+[useProgress]() 进度条 基于原生class 实现\n
